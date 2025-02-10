@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About My Friend Bagus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: #ff6347;
+        }
+        h2 {
+            color: #7b68ee;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .qualities {
+            background-color: #ffffe0;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 70%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .qualities h3 {
+            color: #ff1493;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Page of My Friend, Bagus!</h1>
+    <p><em>Click the button below to discover the amazing qualities of my dear friend!</em></p>
+
+    <button onclick="displayQualities()">Open to Discover Bagus!</button>
+
+    <div id="qualities" style="display:none;">
+        <div class="qualities">
+            <h2>Bagus' Qualities</h2>
+            <h3>Angry Yet Adorable!</h3>
+            <p>Bagus is an amazing person with a unique blend of emotions. She can be a bit angry at times, but that's what makes her even more lovable. Her fiery spirit is one of the things that makes her stand out in a crowd!</p>
+            
+            <h3>Talented and Creative</h3>
+            <p>She’s incredibly talented, whether it's her artistic abilities or her problem-solving skills. No matter what she does, she always gives it her best!</p>
+
+            <h3>True to Her Friends</h3>
+            <p>Bagus is the kind of friend who will always be there for you, no matter what. She's a loyal companion, ready to listen and support her friends through thick and thin.</p>
+
+            <h3>Full of Energy</h3>
+            <p>Her energy is contagious! Whenever Bagus is around, there's never a dull moment. Whether it’s her spontaneous laughter or infectious enthusiasm, she lights up any room.</p>
+
+            <h3>Creative and Adventurous</h3>
+            <p>She loves exploring new ideas, new places, and new experiences. No adventure is too big or too small for Bagus, and she brings everyone along for the ride.</p>
+
+            <h3>Kind and Compassionate</h3>
+            <p>Even though she might appear tough on the outside, Bagus has a heart of gold. She is kind-hearted and always willing to help others, showing great empathy and compassion in everything she does.</p>
+        </div>
+    </div>
+
+    <script>
+        function displayQualities() {
+            document.getElementById("qualities").style.display = "block";
+        }
+    </script>
+    
+</body>
+</html>
